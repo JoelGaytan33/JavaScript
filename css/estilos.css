@@ -40,3 +40,58 @@ body{
     display: block;
     margin-top: 20px;
 }
+.alerta{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    display: block;
+    display: none;
+}
+#elemento{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+
+}
+#elemento h2{
+    color: gray;
+    font-size: 4rem;
+    padding-top: 20px;
+}
+#opciones{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+    width: 200px;
+    min-height: 300px;
+}
+#opciones ul li{
+     list-style: none;
+     width: 100%;
+     display: block;
+     height: 200px;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: white;
+     margin-top: 10px;
+}
+#opciones ul li :hover{
+    cursor:move ;
+    border: 3px dashed red;
+}
+#opciones ul li h2{
+    font-size: 4rem;
+    color: #4d4d4d;
+    padding-top: 30px;
+    text-align: center;
+
+
+    
+}
